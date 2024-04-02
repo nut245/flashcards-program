@@ -1,0 +1,37 @@
+toki : communicate
+pona : be good
+ike : be bad
+jan : person
+li : [verb-marking particle]
+moku : food, eat
+lape : sleep
+olin : love
+ona : them, her, he, it
+mi : me, us
+sina : you
+
+ijo : thing
+e : [object-marking particle]
+telo : water, fluid
+lukin : look at
+ni : this, that
+mute : a lot
+pali : do, make
+sona : know
+suli : big, important
+lili : small
+musi : fun
+
+ma : bad
+kulupu : group
+o : [imperative/vocative-marking particle]
+
+nasim : way, method
+nimi : word, name
+lipu : page, document
+sitelen : picture, writing
+seli : hot
+lete : cold
+mama : parenet
+tomo : building, indoor place
+suno : light, sun
