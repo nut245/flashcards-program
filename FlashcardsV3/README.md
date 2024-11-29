@@ -41,9 +41,9 @@ This Program requires the following libraries:
 ## Installation
 
 There are no external dependancies other than the latest version of Python. Inherently,
-the Python files within their respective libraries and modules are required. Auxiliary
-files, apart from main file, will not run as they are missing the validation to check
-whether it was the __main__ file.
+the program requires the Python files within their respective libraries and modules. 
+Auxiliary files, apart from main file, will not run as they are missing the validation 
+to check whether it was the __main__ file.
 
 ## Configuration
 
