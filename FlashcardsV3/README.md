@@ -45,6 +45,8 @@ the program requires the Python files within their respective libraries and modu
 Auxiliary files, apart from main file, will not run as they are missing the validation 
 to check whether it was the __main__ file.
 
+Running the program requires only executing the main file.
+
 ## Configuration
 
 None exist currently. Implementation of configuration will be accessed by users
@@ -57,4 +59,4 @@ affects.
 
 - Imran Almashoor
 
-current number of lines = 723
+current number of lines: ~723
