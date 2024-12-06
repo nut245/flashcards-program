@@ -106,8 +106,6 @@ class Main(tk.Tk):
         self.bind("<t>", lambda _ : self.pageButtons["Test Your Knowledge"].configure_command())
         self.bind("<i>", lambda _ : self.import_flashcards())
 
-        self.bind("<Configure>", lambda _ : print("i detected this"))
-
     def create_frames_dictionary(self):
         self.frames: dict[str, SubPage] = {}
         listOfFiles = []
