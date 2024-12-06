@@ -29,8 +29,10 @@
   - "I remember", "I somewhat remember", "I don't remember" options within flashcards
   - saving different versions of flashcards to cater to active recall
 - diagram flashcards (notoriously pay-walled)
+
 - Future proofing
   - further code documentation for use cases of each class/functions
   - creation of naming standards within program
   - renaming of polymorphic or ambiguous function and variable names
+  - creation of static classes for more obvious custom global functions
 - Explicit error messages presented to users
