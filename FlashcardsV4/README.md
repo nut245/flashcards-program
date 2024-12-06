@@ -29,8 +29,11 @@
   - "I remember", "I somewhat remember", "I don't remember" options within flashcards
   - saving different versions of flashcards to cater to active recall
 - diagram flashcards (notoriously pay-walled)
+
 - sound for positive affirmation
 - animation to indicate user feedback (e.g: green tint for correct answers)
+- auto-generated questions for specific subjects, not within the flashcards
+- streaks (for days used in a row)
 
 - Future proofing
   - further code documentation for use cases of each class/functions
