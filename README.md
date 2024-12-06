@@ -30,7 +30,7 @@ Running the program requires only executing the main file.
 ## Configuration
 
 None exist currently. Implementation of configuration will be accessed by users
-through settings module (to be created by V4-5).
+through settings module (created since V4).
 
 Documentation is available per file for what each tasks are being performed
 affects.
