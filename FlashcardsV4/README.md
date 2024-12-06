@@ -5,9 +5,11 @@
 - Fully-functional usage for flashcards
 - Reloadable flashcards and information on-the-fly (whilst program is open)
 - Implementation of procedurally generated 'Jeoprody'-esque questions/quiz
+  - Results of quiz on completion
 - Immediate output of results with feedback after completion of quiz
+- 
 
-- Original greem theme and design (as well as easy implementation of new themes)
+- Original green theme and design (as well as easy implementation of new themes)
 - keybinds for mouse-independant shortcuts (not yet customisable)
 
 - Implementation of MySettings library
@@ -25,6 +27,17 @@
 ### Future Endeavors
 - Exportation of flashcards to desired file fomarts
 - Preserved 'decks' of flashcards, without need for file access
+  - insertable images
+  - control over options within "Test Your Knowledge" quiz
+
+- Repeating of wrong answers within "Test Your Knowledge" quiz
+
+- Leverging active recall techniques
+  - "I remember", "I somewhat remember", "I don't remember" options within flashcards
+  - saving different versions of flashcards to cater to active recall
+
+- diagram flashcards (notoriously pay-walled)
+
 - Future proofing
   - further code documentation for use cases of each class/functions
   - creation of naming standards within program
