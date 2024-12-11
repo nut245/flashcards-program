@@ -1,14 +1,14 @@
 import tkinter as tk
-from MyFlashcardsLib import *
-from MyCustomWidgets import TopLevelButton, TitleWidget, CustomFrame
-from MyCustomWidgets import CustomButton # to be replaced with TopLevelButtons
-from MyPages import *
+from my_flashcards_lib import *
+from my_custom_widgets import TopLevelButton, TitleWidget, CustomFrame
+from my_custom_widgets import CustomButton # to be replaced with TopLevelButtons
+from my_pages import *
 
-from MySettings import SettingsObj as stg
+from my_settings_lib import settingsObj as stg
 
 from typing import TYPE_CHECKING
 if TYPE_CHECKING:
-    from MyCustomWidgets import SubPage
+    from my_custom_widgets import SubPage
 
 class Main(tk.Tk):
     """
@@ -166,8 +166,8 @@ class Main(tk.Tk):
         the class is given access to its only object (inherently being a singleton).
         This is done to destroy its only instance and create another.
         
-        only called within [MySettings\settings.py] to reset all default values
-        after changes are made within [MySettings\settingsconfig.json]
+        only called within [my_settings\settings.py] to reset all default values
+        after changes are made within [my_settings\settings_config.json]
         """
         global main
         try:
