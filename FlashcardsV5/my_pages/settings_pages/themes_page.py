@@ -6,13 +6,19 @@ from my_settings_lib import settingsObj as stg
 
 class ThemesPage(VerticalScrolledFrame):
     """
-    write new documentation here
+    Populated by modifiable themes found under themes, in settings_config.json
 
     ### Parameter
     - more documentation here too
 
     ### Properties
-    - EVEN MORE DOCUMENTATION
+    - master: SettingsPage()
+        - solely for placing this widget into
+
+    ### Properties
+    - retrieve_chosen_theme_index(self) -> dict
+        - searches for chosen theme within themeDisplayWidgets list, returning the index of that theme
+        - to be as used within Settings()'s update_settings_config() as value for 'index' key of settings_config.json
     """
     def __init__(self, master):
         super().__init__(parent=master)
@@ -45,6 +51,10 @@ class ThemesPage(VerticalScrolledFrame):
             self.index += 1
 
     def retrieve_chosen_theme_index(self):
+        """
+        - searches for chosen theme within themeDisplayWidgets list, returning the index of that theme
+        - to be as used within Settings()'s update_settings_config() as value for 'index' key of settings_config.json
+        """
         for theme in self.themeDisplayWidgets:
             if theme.chosen:
                 return theme.index
@@ -122,6 +132,9 @@ class ThemeDisplayWidget(tk.Frame):
             self.button.configure(foreground=stg.DARK_TEXT_COLOUR)
 
     def select_theme(self):
+        """
+        clears the selection of any other ThemeDisplayWidget() object and selects itself
+        """
         for themeDisplayWidget in self.controller.themeDisplayWidgets:
             themeDisplayWidget.chosen = False
             themeDisplayWidget.configure(highlightthickness=0, highlightbackground='#EEEEEE')

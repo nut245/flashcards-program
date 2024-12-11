@@ -12,6 +12,7 @@ class SettingsPage(SubPage):
 
     #### Currently manages...
     - KeyBindsPage()
+    - ThemesPage()
     """
     def __init__(self, master):
         super().__init__(master=master)

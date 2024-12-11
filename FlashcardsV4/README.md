@@ -20,7 +20,7 @@
   - implentation of type hinting, leveraged in IntelliSense
 
 ### Future Endeavors
-- Exportation of flashcards to desired file fomarts
+- Exportation of flashcards to desired file formats
 - Preserved 'decks' of flashcards, without need for file access
   - insertable images
   - control over options within "Test Your Knowledge" quiz
