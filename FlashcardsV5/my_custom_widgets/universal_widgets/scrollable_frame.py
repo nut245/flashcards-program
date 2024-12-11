@@ -4,6 +4,7 @@ from tkinter.constants import *
 
 from my_settings_lib import settingsObj as stg
 
+# all credits to furas on https://stackoverflow.com/questions/16188420/tkinter-scrollbar-for-frame for creating this lifesaver
 class VerticalScrolledFrame(ttk.Frame):
     def __init__(self, parent, column=0, row=0, columnspan=1, rowspan=1):
         """A pure Tkinter scrollable frame that actually works!
