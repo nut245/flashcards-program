@@ -1,6 +1,6 @@
 ## Release Notes
 
-see [readme](FlashcardsV4/README.md) in FlashcardsV4, for end-user future endeavours.
+see [the readme](FlashcardsV4/README.md) in FlashcardsV4, for end-user future endeavours.
 
 ### New Features
 - whole code-base refactoring of...
