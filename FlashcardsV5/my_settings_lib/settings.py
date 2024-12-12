@@ -96,7 +96,7 @@ class Settings():
         - config: dict
             - json file as dictionary in python
         """
-        with open("my_settings\\settings_config.json", 'r') as jsonFile:
+        with open("my_settings_lib\\settings_config.json", 'r') as jsonFile:
             data = jsonFile.read()
         config: dict = json.loads(data)
         return config
@@ -105,7 +105,7 @@ class Settings():
         """
         updates and rewrites information within settings_config.json file with conventional formatting
         """
-        with open("my_settings\\settings_config.json", 'w') as jsonFile:
+        with open("my_settings_lib\\settings_config.json", 'w') as jsonFile:
             json.dump(data, jsonFile, indent=4)
 
     def _update(self, dictionary: dict, updated_value: dict):
